@@ -12,7 +12,7 @@ function random () {
   guess = document.getElementById('input').value
   guess = parseInt(guess)
   if (guess === randomNumber) {
-    document.getElementById('reveal').innerHTML = 'Congradulations! You Win. Refresh the page to play again.'
+    document.getElementById('reveal').innerHTML = 'Congratulations! You Win. Refresh the page to play again.'
   }
 }
 function redo () {
