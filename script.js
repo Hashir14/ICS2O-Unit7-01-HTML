@@ -11,12 +11,12 @@ randomNumber = parseInt(randomNumber)
 function random () {
   guess = document.getElementById('input').value
   guess = parseInt (guess)
-  if (guess === randomNumber) {
+  if(guess === randomNumber) {
     document.getElementById('reveal').innerHTML = 'Congradulations! You Win. Refresh the page to play again.'
   }
 }
 function redo () {
   randomNumber = (Math.random() * 6) + 1
   randomNumber = parseInt(randomNumber)
-  document.getElementById('reveal').innerHTML = ' ' 
+  document.getElementById('reveal').innerHTML = ' '
 }
